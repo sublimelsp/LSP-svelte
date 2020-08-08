@@ -1,0 +1,86 @@
+{
+	"languages": [
+		{
+			"languageId": "svelte",
+			"scopes": ["text.html.svelte"],
+			"syntaxes": ["Packages/Svelte/Svelte.sublime-syntax"],
+		}
+	],
+	"initializationOptions": {
+		"config": {
+			"svelte": {
+				"enable": true,
+				"completions": {
+					"enable": true
+				},
+				"diagnostics": {
+					"enable": true
+				},
+				"format": {
+					"enable": true
+				},
+				"hover": {
+					"enable": true
+				}
+			},
+			"html": {
+				"enable": true,
+				"completions": {
+					"enable": true
+				},
+				"documentSymbols": {
+					"enable": true
+				},
+				"hover": {
+					"enable": true
+				},
+				"tagComplete": {
+					"enable": true
+				}
+			},
+			"css": {
+				"enable": true,
+				"colorPresentations": {
+					"enable": true
+				},
+				"completions": {
+					"enable": true
+				},
+				"diagnostics": {
+					"enable": false
+				},
+				"documentColors": {
+					"enable": true
+				},
+				"documentSymbols": {
+					"enable": true
+				},
+				"hover": {
+					"enable": true
+				}
+			},
+			"typescript": {
+				"enable": true,
+				"codeActions": {
+					"enable": true
+				},
+				"completions": {
+					"enable": true
+				},
+				"definitions": {
+					"enable": true
+				},
+				"diagnostics": {
+					"enable": true
+				},
+				"documentSymbols": {
+					"enable": true
+				},
+				"hover": {
+					"enable": true
+				}
+			}
+		}
+	},
+	"settings": {}
+}

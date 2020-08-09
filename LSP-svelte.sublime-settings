@@ -2,6 +2,14 @@
 	"languages": [
 		{
 			"languageId": "svelte",
+			// ST3 configuration
+			"scopes": [
+				"text.html.svelte"
+			],
+			"syntaxes": [
+				"Packages/Svelte/Svelte.sublime-syntax"
+			],
+			// ST4 configuration
 			"document_selector": "text.html.svelte"
 		}
 	],

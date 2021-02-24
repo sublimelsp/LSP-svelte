@@ -2,6 +2,6 @@
   "name": "sublime-sls",
   "version": "1.0.0",
   "dependencies": {
-    "svelte-language-server": "^0.12.11"
+    "svelte-language-server": "^0.12.14"
   }
 }

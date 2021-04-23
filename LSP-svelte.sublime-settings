@@ -15,77 +15,118 @@
 		}
 	],
 	"initializationOptions": {
-		"config": {
+		"configuration": {
 			"svelte": {
-				"enable": true,
-				"completions": {
-					"enable": true
-				},
-				"diagnostics": {
-					"enable": true
-				},
-				"format": {
-					"enable": true
-				},
-				"hover": {
-					"enable": true
-				}
-			},
-			"html": {
-				"enable": true,
-				"completions": {
-					"enable": true
-				},
-				"documentSymbols": {
-					"enable": true
-				},
-				"hover": {
-					"enable": true
-				},
-				"tagComplete": {
-					"enable": true
-				}
-			},
-			"css": {
-				"enable": true,
-				"colorPresentations": {
-					"enable": true
-				},
-				"completions": {
-					"enable": true
-				},
-				"diagnostics": {
-					"enable": false
-				},
-				"documentColors": {
-					"enable": true
-				},
-				"documentSymbols": {
-					"enable": true
-				},
-				"hover": {
-					"enable": true
-				}
-			},
-			"typescript": {
-				"enable": true,
-				"codeActions": {
-					"enable": true
-				},
-				"completions": {
-					"enable": true
-				},
-				"definitions": {
-					"enable": true
-				},
-				"diagnostics": {
-					"enable": true
-				},
-				"documentSymbols": {
-					"enable": true
-				},
-				"hover": {
-					"enable": true
+				"plugin": {
+					"css": {
+						"enable": true,
+						"globals": "",
+						"colorPresentations": {
+							"enable": true
+						},
+						"completions": {
+							"enable": true,
+							"emmet": true
+						},
+						"diagnostics": {
+							"enable": true
+						},
+						"documentColors": {
+							"enable": true
+						},
+						"documentSymbols": {
+							"enable": true
+						},
+						"hover": {
+							"enable": true
+						},
+						"selectionRange": {
+							"enable": true
+						}
+					},
+					"html": {
+						"enable": true,
+						"completions": {
+							"enable": true,
+							"emmet": true
+						},
+						"documentSymbols": {
+							"enable": true
+						},
+						"hover": {
+							"enable": true
+						},
+						"linkedEditing": {
+							"enable": true
+						},
+						"renameTags": {
+							"enable": true
+						},
+						"tagComplete": {
+							"enable": true
+						}
+					},
+					"svelte": {
+						"enable": true,
+						"codeActions": {
+							"enable": true
+						},
+						"compilerWarnings": {},
+						"completions": {
+							"enable": true
+						},
+						"diagnostics": {
+							"enable": true
+						},
+						"format": {
+							"enable": true
+						},
+						"hover": {
+							"enable": true
+						},
+						"rename": {
+							"enable": true
+						},
+						"selectionRange": {
+							"enable": true
+						}
+					},
+					"typescript": {
+						"enable": true,
+						"codeActions": {
+							"enable": true
+						},
+						"completions": {
+							"enable": true
+						},
+						"definitions": {
+							"enable": true
+						},
+						"diagnostics": {
+							"enable": true
+						},
+						"documentSymbols": {
+							"enable": true
+						},
+						"findReferences": {
+							"enable": true
+						},
+						"hover": {
+							"enable": true
+						},
+						"rename": {
+							"enable": true
+						},
+						"selectionRange": {
+							"enable": true
+						},
+						"semanticTokens": {
+							"enable": true
+						},
+						"signatureHelp": {
+							"enable": true
+						}
+					}
 				}
 			}
 		}

@@ -1,16 +1,5 @@
 {
 	"command": ["${node_bin}", "${server_path}", "--stdio"],
-	// ST3
-	"languages": [
-		{
-			"scopes": ["text.html.svelte"],
-			"syntaxes": [
-				"Packages/Svelte/Svelte.sublime-syntax"
-			],
-		}
-	],
-	// ST4
-	"selector": "text.html.svelte",
 	"disabled_capabilities": {},
 	"initializationOptions": {
 		"configuration": {
@@ -129,5 +118,15 @@
 			}
 		}
 	},
-	"settings": {}
+	"settings": {},
+	// ST4
+	"selector": "text.html.svelte",
+	// ST3
+	"languages": [
+		{
+			"languageId": "svelte",
+			"scopes": ["text.html.svelte"],
+			"syntaxes": ["Packages/Svelte/Svelte.sublime-syntax"],
+		}
+	],
 }

@@ -62,6 +62,7 @@
 						"completions": {
 							"enable": true
 						},
+						"useNewTransformation": false,
 						"diagnostics": {
 							"enable": true
 						},

@@ -119,6 +119,10 @@
 			}
 		}
 	},
+	"file_watcher": {
+		"patterns": ["{**/*.js,**/*.ts,**/*.json}"],
+		"events": ["create", "change"]
+	},
 	"settings": {},
 	// ST4
 	"selector": "text.html.svelte",

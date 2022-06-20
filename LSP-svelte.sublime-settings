@@ -120,8 +120,8 @@
 		}
 	},
 	"file_watcher": {
-		"patterns": ["{**/*.js,**/*.ts,**/*.json}"],
-		"events": ["create", "change"]
+		"patterns": ["{**/*.js,**/*.ts}"],
+		"events": ["create", "change", "delete"]
 	},
 	"settings": {},
 	// ST4

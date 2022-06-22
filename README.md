@@ -14,6 +14,6 @@ This is a helper package that automatically installs and updates the [Svelte Lan
 Open configuration file using command palette with `Preferences: LSP-svelte Settings` command or opening it from the Sublime menu (`Preferences > Package Settings > LSP > Servers > LSP-svelte`).
 
 
-## Enable for non-Svelte files
+## Svelte support in JS/TS files
 
-Provides intellisense for Svelte files inside TS/JS files by installing the (typescript-svelte-plugin)[https://www.npmjs.com/package/typescript-svelte-plugin].
+The [typescript-svelte-plugin](https://www.npmjs.com/package/typescript-svelte-plugin) provides additional Svelte-related functionality in JS/TS files. To enable it, install it in your project and configure following its documentation.

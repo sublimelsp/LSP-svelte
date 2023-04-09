@@ -1,6 +1,30 @@
 {
 	"command": ["${node_bin}", "${server_path}", "--stdio"],
-	"disabled_capabilities": {},
+	"file_watcher": {
+		"patterns": ["{**/*.js,**/*.ts}"],
+		"events": ["create", "change", "delete"]
+	},
+	"settings": {
+ 		// javascript inlay hint
+		"javascript.inlayHints.enumMemberValues.enabled": false,
+		"javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+		"javascript.inlayHints.parameterNames.enabled": "none",
+		"javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+		"javascript.inlayHints.parameterTypes.enabled": false,
+		"javascript.inlayHints.propertyDeclarationTypes.enabled": false,
+		"javascript.inlayHints.variableTypes.enabled": false,
+		"javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName.enabled": true,
+
+		// typescript inlay hint
+		"typescript.inlayHints.enumMemberValues.enabled": false,
+		"typescript.inlayHints.functionLikeReturnTypes.enabled": false,
+		"typescript.inlayHints.parameterNames.enabled": "none",
+		"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+		"typescript.inlayHints.parameterTypes.enabled": false,
+		"typescript.inlayHints.propertyDeclarationTypes.enabled": false,
+		"typescript.inlayHints.variableTypes.enabled": false,
+		"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName.enabled": true,
+	},
 	"initializationOptions": {
 		"configuration": {
 			"svelte": {
@@ -119,11 +143,6 @@
 			}
 		}
 	},
-	"file_watcher": {
-		"patterns": ["{**/*.js,**/*.ts}"],
-		"events": ["create", "change", "delete"]
-	},
-	"settings": {},
 	// ST4
 	"selector": "text.html.svelte",
 	// ST3

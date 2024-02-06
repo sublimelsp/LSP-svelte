@@ -143,9 +143,6 @@
 			}
 		}
 	},
-	// ST4
-	"selector": "text.html.svelte",
-	// ST3
 	"languages": [
 		{
 			"languageId": "svelte",

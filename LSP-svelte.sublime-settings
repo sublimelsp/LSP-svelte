@@ -143,14 +143,5 @@
 			}
 		}
 	},
-	// ST4
-	"selector": "text.html.svelte",
-	// ST3
-	"languages": [
-		{
-			"languageId": "svelte",
-			"scopes": ["text.html.svelte"],
-			"syntaxes": ["Packages/Svelte/Svelte.sublime-syntax"],
-		}
-	],
+	"selector": "text.html.svelte"
 }

@@ -14,16 +14,19 @@
                   "additionalProperties": false,
                   "properties": {
                     "svelte.language-server.runtime": {
-                      "scope": "application",
                       "type": "string",
                       "title": "Language Server Runtime",
                       "description": "- You normally don't need this - Path to the node executable to use to spawn the language server. Minimum required node version is 12.17. This setting can only be changed in user settings for security reasons."
                     },
                     "svelte.language-server.ls-path": {
-                      "scope": "application",
                       "type": "string",
                       "title": "Language Server Path",
                       "description": "- You normally don't set this - Path to the language server executable. If you installed the \"svelte-language-server\" npm package, it's within there at \"bin/server.js\". Path can be either relative to your workspace root or absolute. Set this only if you want to use a custom version of the language server. This will then also use the workspace version of TypeScript. This setting can only be changed in user settings for security reasons."
+                    },
+                    "svelte.language-server.runtime-args": {
+                      "type": "array",
+                      "title": "Language Server Runtime Args",
+                      "description": "You normally don't set this. Additional arguments to pass to the node executable when spawning the language server. This is useful when you use something like Yarn PnP and need its loader arguments `[\"--loader\", \".pnp.loader.mjs\"]`."
                     },
                     "svelte.language-server.port": {
                       "type": "number",
@@ -35,22 +38,6 @@
                       "type": "boolean",
                       "title": "Language Server Debug Mode",
                       "description": "- You normally don't set this - Enable more verbose logging for the language server useful for debugging language server execution."
-                    },
-                    "svelte.trace.server": {
-                      "type": "string",
-                      "enum": [
-                        "off",
-                        "messages",
-                        "verbose"
-                      ],
-                      "default": "off",
-                      "description": "Traces the communication between the Sublime Text LSP client and the Svelte Language Server."
-                    },
-                    "svelte.plugin.typescript.enable": {
-                      "type": "boolean",
-                      "default": true,
-                      "title": "TypeScript",
-                      "description": "Enable the TypeScript plugin"
                     },
                     "svelte.plugin.typescript.diagnostics.enable": {
                       "type": "boolean",
@@ -99,6 +86,12 @@
                       "default": true,
                       "title": "TypeScript: Semantic Tokens",
                       "description": "Enable semantic tokens (semantic highlight) for TypeScript."
+                    },
+                    "svelte.plugin.typescript.workspaceSymbols.enable": {
+                      "type": "boolean",
+                      "default": true,
+                      "title": "TypeScript: Workspace Symbols",
+                      "description": "Enable workspace symbols for TypeScript."
                     },
                     "svelte.plugin.css.enable": {
                       "type": "boolean",
@@ -304,6 +297,12 @@
                       "default": true,
                       "title": "Svelte: Rename",
                       "description": "Enable rename/move Svelte files functionality"
+                    },
+                    "svelte.plugin.svelte.runesLegacyModeCodeLens.enable": {
+                      "type": "boolean",
+                      "default": true,
+                      "title": "Svelte: Legacy/Runes mode Code Lens",
+                      "description": "Show a code lens at the top of Svelte files indicating if they are in runes mode or legacy mode. Only visible in Svelte 5 projects."
                     },
                     "svelte.plugin.svelte.defaultScriptLanguage": {
                       "type": "string",

@@ -14,3 +14,4 @@ jobs:
       configuration_jq_query: '.contributes.configuration.properties'
       version_file: 'server/package.json'
       version_regexp: '"svelte-language-server": "([^"]+)"'
+      version_transform: 'svelte-language-server@{}'

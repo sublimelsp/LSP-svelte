@@ -25,7 +25,7 @@
 		"typescript.inlayHints.variableTypes.enabled": false,
 		"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName.enabled": true,
 	},
-	"initializationOptions": {
+	"initialization_options": {
 		"configuration": {
 			"svelte": {
 				"plugin": {

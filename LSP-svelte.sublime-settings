@@ -1,9 +1,5 @@
 {
 	"command": ["${node_bin}", "${server_path}", "--stdio"],
-	"file_watcher": {
-		"patterns": ["{**/*.js,**/*.ts}"],
-		"events": ["create", "change", "delete"]
-	},
 	"settings": {
  		// javascript inlay hint
 		"javascript.inlayHints.enumMemberValues.enabled": false,

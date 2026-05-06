@@ -5,8 +5,9 @@ This is a helper package that automatically installs and updates the [Svelte Lan
 
 ## Installation
 
-* Install [LSP](https://packagecontrol.io/packages/LSP), [Svelte](https://packagecontrol.io/packages/Svelte) and `LSP-svelte` from Package Control.
-* Restart Sublime.
+1. Install [LSP](https://packagecontrol.io/packages/LSP), [Svelte](https://packagecontrol.io/packages/Svelte) and `LSP-svelte` from Package Control.
+2. (Optional but recommended) Install the [LSP-file-watcher-rust](https://packagecontrol.io/packages/LSP-file-watcher-rust) via Package Control to enable functionality to notify the server about new files.
+3. Restart Sublime.
 
 
 ## Configuration

@@ -2,7 +2,7 @@
   "name": "lsp-svelte",
   "version": "1.0.0",
   "dependencies": {
-    "svelte-language-server": "0.18.0",
+    "svelte-language-server": "0.18.1",
     "typescript": "6.0.3"
   }
 }

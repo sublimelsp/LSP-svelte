@@ -1,0 +1,10 @@
+{
+    "input_repository_url": "https://github.com/sveltejs/language-tools",
+    "input_repository_json_configuration_path": "packages/svelte-vscode/package.json",
+    "transformers": [
+        {
+            "type": "jq",
+            "options": ".contributes.configuration.properties"
+        }
+    ]
+}

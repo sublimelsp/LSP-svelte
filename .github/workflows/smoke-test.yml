@@ -1,0 +1,16 @@
+name: Smoke test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    uses: sublimelsp/lsp_smoke_test/.github/workflows/smoke-test.yml@v1
+    # Provides the Svelte syntax, which Sublime Text doesn't include.
+    with:
+      extra-packages: |
+        corneliusio/svelte-sublime@st4143-4.3.1

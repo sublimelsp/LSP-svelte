@@ -13,4 +13,4 @@ jobs:
     # Provides the Svelte syntax, which Sublime Text doesn't include.
     with:
       extra-packages: |
-        corneliusio/svelte-sublime@st4143-
+        Svelte

@@ -10,6 +10,11 @@
           "definitions": {
             "PluginConfig": {
               "properties": {
+                "typescript_plugin": {
+                  "type": "boolean",
+                  "default": false,
+                  "markdownDescription": "Load [typescript-svelte-plugin](https://www.npmjs.com/package/typescript-svelte-plugin) into `LSP-typescript`, for Svelte support in JS/TS files: go to definition, find references and rename across Svelte files, component types in diagnostics, completions and hover, and SvelteKit route types.\n\nIt's loaded once `LSP-svelte` starts. Turning it off again takes effect after restarting Sublime Text."
+                },
                 "server_path": {
                   "type": "string",
                   "default": "auto",

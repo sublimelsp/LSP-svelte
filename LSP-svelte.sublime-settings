@@ -138,6 +138,10 @@
 			}
 		}
 	},
+	// Load typescript-svelte-plugin into LSP-typescript, for Svelte support in JS/TS files: go to definition, find
+	// references and rename across Svelte files, component types in diagnostics, completions and hover, and SvelteKit
+	// route types. It's loaded once LSP-svelte starts. Turning it off again takes effect after restarting Sublime Text.
+	"typescript_plugin": false,
 	// The path to the server binary used to start the language server.
 	// Use `auto` for the package to manage (install/update) the server automatically.
 	// NOTE: Change this instead of directly updating `command` - the `${server_path}` variable is dynamically resolved based on this setting.
